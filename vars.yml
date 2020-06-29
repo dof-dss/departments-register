@@ -1,0 +1,14 @@
+---
+# Environment Variables
+APP_DEBUG: true
+APP_ENV: staging
+APP_KEY: base64:Jxp7fV1EgmjJjSVc9Ax9KMXZHKaxi5IHBamByNJx3ik=
+APP_URL: departments-register.london.cloudapps.digital
+APP_NAME: departments-register
+LOG_CHANNEL: stderr
+MAIL_DRIVER: smtp
+MAIL_HOST: null
+MAIL_PASSWORD: null
+MAIL_PORT: null
+MAIL_USERNAME: null
+DB_CERT_PATH: /etc/ssl/certs
