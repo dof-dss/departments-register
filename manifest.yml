@@ -9,19 +9,9 @@ defaults: &defaults
     APP_KEY: ((APP_KEY))
     APP_NAME: ((APP_NAME))
     APP_URL: ((APP_URL))
-    CACHE_DRIVER: file
     DB_CERT_PATH: /etc/ssl/certs
-    DB_CONNECTION: mysql
     LOG_CHANNEL: ((LOG_CHANNEL))
-    MAIL_DRIVER: ((MAIL_DRIVER))
-    MAIL_ENCRYPTION: tls
-    MAIL_HOST: ((MAIL_HOST))
-    MAIL_PASSWORD: ((MAIL_PASSWORD))
-    MAIL_PORT: ((MAIL_PORT))
-    MAIL_USERNAME: ((MAIL_USERNAME))
-    QUEUE_CONNECTION: sync
-    REDIS_SCHEME: tls
-    SESSION_DRIVER: file
+
 
 applications:
 - name: ((APP_NAME))
