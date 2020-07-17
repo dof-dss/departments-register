@@ -13,14 +13,14 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::group(['middleware' => ['api']], function() {
+Route::group(['middleware' => ['api']], function () {
     Route::apiResources([
       'departments' => 'API\DepartmentsController'
     ]);
 });
 
-Route::fallback(function() {
-  return response()->json([
-    'message' => 'Resource not found. If the problem persists please contact customer support.'
-  ], 404);
+Route::fallback(function () {
+    return response()->json([
+      'message' => 'Resource not found. If the problem persists please contact customer support.'
+    ], 404);
 });
