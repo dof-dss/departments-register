@@ -1,3 +1,7 @@
+## 1.1.0-beta (July 17, 2020)
+  - Align version number with milestones in GitHub
+  - Merge pull request #13 from dof-dss/bugfix-update-circleci
+
 ## 1.0.0-beta (July 17, 2020)
 
 
@@ -24,4 +28,3 @@
   - Bump jquery from 3.4.1 to 3.5.0
   - Initial code commit
   - first commit
-
