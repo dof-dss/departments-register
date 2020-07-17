@@ -1,3 +1,6 @@
+## 1.0.0-beta (July 17, 2020)
+
+
 ## 0.1.0 (July 17, 2020)
   - Add version control
   - Add environment specific manifest files
