@@ -180,9 +180,9 @@ workflows:
           target: "SANDBOX"
           requires:
             - test-with-docker
-          filters:    # all tags and selected branches
+          filters:    # no tags and selected branches
             tags:
-              only: /.*/
+              ignore: /.*/
             branches:
               only:
                 - /feature-.*/
